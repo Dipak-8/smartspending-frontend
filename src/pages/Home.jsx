@@ -211,7 +211,7 @@ const Home = () => {
       //   url: productLink
       // });
 
-      const res = await axios.post("/compare", {
+      const res = await axios.post("https://smartspending-backend.onrender.com/compare", {
         url: productLink
       });
 
