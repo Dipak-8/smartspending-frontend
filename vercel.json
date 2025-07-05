@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/compare",
+      "destination": "https://smartspending-backend.onrender.com/compare"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://smartspending-backend.onrender.com/api/:path*"
+    }
+  ]
+}
