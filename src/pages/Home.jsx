@@ -207,7 +207,11 @@ const Home = () => {
 
     try {
       // Send link to backend
-      const res = await axios.post("http://localhost:8000/compare", {
+      // const res = await axios.post("http://localhost:8000/compare", {
+      //   url: productLink
+      // });
+
+      const res = await axios.post("/compare", {
         url: productLink
       });
 
